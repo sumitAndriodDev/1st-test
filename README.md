@@ -1,5 +1,3 @@
-![Screenshot_20240729-204043 1]()
-![Screenshot_20240729-204009 1]()
 🚀 Exciting Announcement! 🚀
 
 Hi everyone, I’m Sumit Gohil, and I’m thrilled to share that I’ve just launched my very first Android application! 🎉📱
