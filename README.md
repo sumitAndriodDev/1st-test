@@ -1,4 +1,4 @@
-🚀 Exciting Announcement! 🚀
+# 🚀 Exciting Announcement! 🚀
 
 Hi everyone, I’m Sumit Gohil, and I’m thrilled to share that I’ve just launched my very first Android application! 🎉📱
 
