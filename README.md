@@ -7,7 +7,7 @@ This app showcases navigation and data parsing in Android, two crucial aspects f
 
 Smooth Navigation: Navigate effortlessly between different sections of the app.
 Data Parsing: Efficiently handle and display data from various sources.
-🔗 Explore the Project: Check it out on GitHub!
+🔗 Explore the Project: <a href="https://github.com/sumitAndriodDev/1st-test">Check it out on GitHub!</a>
 
 ✨ Why This Matters:
 Whether you’re a fellow developer or just curious about Android development, this app is a great example of how to manage app flow and data effectively.
