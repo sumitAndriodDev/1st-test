@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                radioButton=findViewById(group.getCheckedRadioButtonId());
                 name.setError(null);
                 email.setError(null);
                 num.setError(null);
@@ -48,19 +49,18 @@ public class MainActivity extends AppCompatActivity {
                 {
                     name.setError("Name is Required");
                 }
-                if(email.getText().toString().isEmpty()) {
+                else if(email.getText().toString().isEmpty()) {
                     email.setError("Email is Required");
                 }
-                if(num.getText().toString().isEmpty())
+                else if(num.getText().toString().isEmpty())
                 {
                     num.setError("Number is Required");
                 }
-                if(num.getText().toString().length()!=10)
+                else if(num.getText().toString().length()!=10)
                 {
                     num.setError("Number should be 10 digits");
                 }
-                radioButton=findViewById(group.getCheckedRadioButtonId());
-                if(radioButton==null)
+                else if(radioButton==null)
                 {
                     Toast t1=new Toast(getApplicationContext());
                     t1.setText("Gender is Required");
@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
                     i.putExtra("gender",gender);
                     i.putExtra("email",email1);
                     startActivity(i);
+                    finish();;
                 }
             }
         });

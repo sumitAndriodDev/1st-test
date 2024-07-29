@@ -18,7 +18,7 @@
         android:layout_margin="10dp"
         />
     <TextView
-        android:id="@+id/name"
+        android:id="@+id/name1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Your Details"
@@ -26,7 +26,7 @@
         android:layout_margin="10dp"
         />
     <TextView
-        android:id="@+id/number"
+        android:id="@+id/number1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Your Details"
@@ -34,7 +34,7 @@
         android:layout_margin="10dp"
         />
     <TextView
-        android:id="@+id/email"
+        android:id="@+id/email1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Your Details"
@@ -42,7 +42,7 @@
         android:layout_margin="10dp"
         />
     <TextView
-        android:id="@+id/gender"
+        android:id="@+id/gender1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Your Details"
@@ -53,6 +53,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Back"
-        android:id="@+id/back"
+        android:id="@+id/back1"
         />
 </LinearLayout>

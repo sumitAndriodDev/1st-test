@@ -26,11 +26,11 @@ public class MainActivity2 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        name=findViewById(R.id.name);
-        gender=findViewById(R.id.gender);
-        email=findViewById(R.id.email);
-        number=findViewById(R.id.number);
-        back=findViewById(R.id.back);
+        name=findViewById(R.id.name1);
+        gender=findViewById(R.id.gender1);
+        email=findViewById(R.id.email1);
+        number=findViewById(R.id.number1);
+        back=findViewById(R.id.back1);
         Intent i=new Intent();
         name.setText(i.getStringExtra("name"));
         email.setText(i.getStringExtra("email"));
