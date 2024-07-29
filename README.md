@@ -1,3 +1,5 @@
+![Screenshot_20240729-204043 1]()
+![Screenshot_20240729-204009 1]()
 🚀 Exciting Announcement! 🚀
 
 Hi everyone, I’m Sumit Gohil, and I’m thrilled to share that I’ve just launched my very first Android application! 🎉📱
@@ -17,3 +19,7 @@ Whether you’re a fellow developer or just curious about Android development, t
 Thank you for your support and happy exploring! 🙌
 
 #AndroidDevelopment #Java #XML #Navigation #DataParsing #GitHub #AppDev #TechJourney
+<p>
+<img src="https://github.com/user-attachments/assets/26a8d8e9-5205-4283-898e-c177085aabd1"  height="400px" width="200px"/>
+<img src="https://github.com/user-attachments/assets/684f5c0b-bcb9-4442-8b6e-dcf55d871d72"  height="400px" width="200px"/>
+</p>
