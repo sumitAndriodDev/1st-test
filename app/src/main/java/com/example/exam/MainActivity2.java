@@ -31,7 +31,7 @@ public class MainActivity2 extends AppCompatActivity {
         email=findViewById(R.id.email1);
         number=findViewById(R.id.number1);
         back=findViewById(R.id.back1);
-        Intent i=new Intent();
+        Intent i=getIntent();
         name.setText(i.getStringExtra("name"));
         email.setText(i.getStringExtra("email"));
         number.setText(i.getStringExtra("phone"));
