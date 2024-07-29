@@ -32,10 +32,10 @@ public class MainActivity2 extends AppCompatActivity {
         number=findViewById(R.id.number1);
         back=findViewById(R.id.back1);
         Intent i=getIntent();
-        name.setText(i.getStringExtra("name"));
-        email.setText(i.getStringExtra("email"));
-        number.setText(i.getStringExtra("phone"));
-        gender.setText(
+        name.setText("Name: "+i.getStringExtra("name"));
+        email.setText("Email: "+i.getStringExtra("email"));
+        number.setText("Number: "+i.getStringExtra("phone"));
+        gender.setText("Gender: "+
         i.getStringExtra("gender"));
         back.setOnClickListener(new View.OnClickListener() {
             @Override
