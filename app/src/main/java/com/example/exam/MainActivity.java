@@ -62,9 +62,8 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else if(radioButton==null)
                 {
-                    Toast t1=new Toast(getApplicationContext());
-                    t1.setText("Gender is Required");
-                    t1.show();
+                    Toast toast=Toast.makeText(MainActivity.this,"Gender is required",Toast.LENGTH_LONG);
+                    toast.show();;
                 }
                 else{
                    String gender= radioButton.getText().toString();
